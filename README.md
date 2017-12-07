@@ -7,8 +7,3 @@ You must have a nginx.vh.default.conf file before issuing `docker build`. See `n
 **Base Image**: https://github.com/nginxinc/docker-nginx/tree/master/stable/alpine
 
 **Credits**: http://stackoverflow.com/a/43956748/4258892
-
-
-## AWS CodeBuild Env Variables
-
-`NGINX_S3_CONFIG_PATH` - S3 object path for nginx.vh.default.conf file.
